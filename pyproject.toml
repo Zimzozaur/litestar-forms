@@ -13,3 +13,7 @@ dependencies = [
 dev = [
     "litestar[standard]>=2.15.2",
 ]
+
+
+[tool.setuptools]
+packages = ["litestar_forms"]
